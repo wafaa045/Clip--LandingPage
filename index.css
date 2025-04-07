@@ -1,0 +1,243 @@
+
+h1,h2,h3,h4,h5{ color: hsl(210, 10%, 33%);}
+    
+
+
+
+p{ color:  hsl(201, 11%, 66%);
+
+font-weight: 400;
+}
+
+header{ 
+    background-image: url("./images/bg-header-desktop.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Make the header full-screen height */
+    margin-top: -2rem;
+padding: 2rem 0;
+
+}
+.logo {
+   
+    height: 20rem;
+   
+    text-align: center;
+     align-content: center;
+    padding:6rem 0;
+
+
+
+   
+  }
+  .frist-p{ margin-top: 0rem;}
+
+ 
+.button-contener button{ 
+width: 13rem;
+height:3rem;
+border-radius: 2rem ;
+color: aliceblue;
+text-transform: capitalize;
+border-style: none;
+font-weight: 600;
+font-size: 18px;
+
+}
+.but-1{ background-color: hsl(171, 66%, 44%);
+    
+}
+
+.but-2{ background-color:hsl(233, 100%, 69%) ;
+margin-left: 1rem;}
+
+.content{ display: grid; 
+    text-align: center;
+    align-content: center;
+margin-top: -4rem;
+padding: 0;
+
+}
+
+
+.img-content {
+    margin-top:3rem;
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+    align-content: space-between; /* Works if there are multiple rows */
+  }
+.img-content img{ width:35rem;}
+
+.img-content-2{  display: grid;
+    text-align: center;
+    margin-top: 2rem;
+    grid-template-columns: repeat(1, 2fr);
+    align-content: space-between;
+
+}
+
+.img-content-2  img{ width:35rem;
+margin-top:3rem;
+
+}
+
+
+
+.img-text-p{ 
+
+   display: grid;
+        text-align: center;
+        margin-top: 2rem;
+        grid-template-columns: repeat(3,0.7fr);
+        align-content: space-between;
+    
+
+}
+.five-img{  display: grid;
+    text-align: center;
+    margin-top: 2rem;
+    grid-template-columns: repeat(5,0.4fr);
+    align-content: space-between;
+   
+}
+.five-img img{ width: 7rem;}
+.thelast-section{ 
+margin: 5rem 0rem;
+    text-align: center;
+    align-content: center;
+   padding:3rem 0;}
+
+
+.thelast-section h2,p,section { margin-top: 2rem;}
+
+
+footer{ background-color: hsl(204, 6%, 85%);
+    padding:2rem 0;
+
+}
+.footr-section{ display: grid;
+    grid-template-columns: repeat(5,20%);
+    
+}
+.fristimg-footer img{ width:3rem;
+    padding-left: 10rem;
+
+}
+.footr-section div{ display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* margin-top: 2rem; */
+    
+}
+    
+    .footr-section a{ text-decoration: none;
+    color: hsl(210, 10%, 33%);}
+    .contact-icon img{ padding:1rem; }
+
+
+  
+    .attribution { font-size: 16px; text-align: center;
+    color: hsl(171, 66%, 44%);
+ padding-top: 0;
+ margin: 4rem 0 0;
+   
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+ 
+
+
+    @media (max-width: 375px) { 
+
+        header{ 
+            background-image: url("./images/bg-header-mobile.png");
+        }        
+         button{ 
+           padding: 1rem;
+            margin-top: 1rem;
+        width: 20rem;
+        }
+            
+            .content{  padding: 1rem;}
+            
+           
+            .img-content {
+                margin-top:3rem;
+                display: grid;
+                
+                grid-template-columns: repeat(1, 1fr); 
+                align-content: center ;
+                justify-items: center;
+               
+              }
+              .img-content img{ width:20rem;}
+
+              .img-content div { display: grid;
+                grid-template-columns: repeat(1, 1fr); 
+                 text-align: center;
+
+            }
+                
+                .img-content p{ margin: 0;
+                    width: 20rem;}
+               
+                    .img-content-2{ 
+                        text-align: center;
+                        margin-top:6rem;
+                        grid-template-columns: repeat(1, 2fr);
+                        align-content: space-between;
+                        text-align: center;
+                        justify-content: center;
+                        width: 20rem
+                    }
+                    .img-content-2 div{ padding-top:10rem;}
+                    
+                    .img-content-2 h1{ width: 20rem;}
+                    .img-content-2  img{ width:20rem;
+                    margin-top:3rem;}
+                    
+                    .img-content-2 h2{ margin-top: 4rem; }
+
+                    .img-text-p{  
+                             margin-top:8rem;
+                             grid-template-columns: repeat(1,1fr);}
+                           
+                             .five-img{  
+                                grid-template-columns: repeat(1,1fr);
+                               
+                                margin-top:4rem;}
+                                .five-img  div{ margin-top: 3rem;}
+
+                                .thelast-section{ text-align: center;
+                                  justify-content: center;
+                                       width:20rem;
+                                    
+                                    align-content: space-between;
+                                    text-align: center;}
+                                    
+                              
+                                      
+   .footr-section{ 
+                grid-template-columns: repeat(1,1fr);
+                                        
+
+                    justify-items: center; 
+                text-align: center;
+                
+                }
+                    .fristimg-footer img{ 
+                        padding: 0;
+                    
+                    }
+                    .footr-section div{ 
+                        margin-top:0.5rem;
+                        
+                    }
+                        
+                        .footr-section a{ 
+                       padding:1rem;}       }
+                      
+                     
+
+
+    
